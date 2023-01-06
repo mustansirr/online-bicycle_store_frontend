@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login</title>
+	<style>
+		html {
+			scroll-behavior: smooth;
+			font-family: Alegreya;
+		}
+
+		img {
+			width: 50px;
+			height: 50px;
+		}
+
+		div {
+			text-align: center;
+		}
+
+		ol {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			margin-top: 10px;
+			padding: 5px;
+			background-color: black;
+		}
+
+		li {
+			display: inline-block;
+			padding: 15px;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+
+		.account {
+			color: orange;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover {
+			color: orange;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<a href="Home.html"><span style="color: black;">
+				<h2>TRACK N TRAILS</h2>
+			</span></a>
+		<img src="Images/Logo.png" alt="LOGO">
+		<nav>
+			<ol>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Bikes.html">Bikes</a></li>
+				<li><a href="Accessories.html">Accessories</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a href="Contact.html">Contact Us</a></li>
+				<li><a href="Link.html">My Account</a></li>
+			</ol>
+		</nav>
+		<br>
+	</div>
+	<div>
+		<h3>LOGIN</h3>
+		<form>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="Username" value=""><br><br>
+			<label for="password">Password</label>
+			<input type="text" id="password" name="Password" value=""><br><br>
+			<label for="remember">Remember me?</label>
+			<input type="checkbox" id="remember" name="Remembrance">
+			<button type="submit" value="Submit" onclick="alert ('Logged in!')">Login</button>
+		</form>
+		<p>Don't have an account, <a class="account" href="registration_2.html">Create one!</a></p>
+	</div>
+</body>
+
+</html>

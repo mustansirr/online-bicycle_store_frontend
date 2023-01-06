@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Register</title>
+	<style>
+		html {
+			scroll-behavior: smooth;
+			font-family: Alegreya;
+		}
+
+		img {
+			width: 50px;
+			height: 50px;
+		}
+
+		div {
+			text-align: center;
+		}
+
+		h4 {
+			color: orange;
+		}
+
+		ol {
+			margin: 0;
+			padding: 0;
+			margin-top: 10px;
+			padding: 5px;
+			background-color: black;
+		}
+
+		li {
+			display: inline-block;
+			padding: 15px;
+			text-decoration: none;
+			margin-right: 20px;
+			color: orange;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover {
+			color: orange;
+		}
+
+		button {
+			color: orange;
+			background-color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<a href="Home.html"><span style="color: black;">
+				<h2>TRACK N TRAILS</h2>
+			</span></a>
+		<img src="Images/Logo.png" alt="LOGO">
+		<nav>
+			<ol>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Bikes.html">Bikes</a></li>
+				<li><a href="Accessories.html">Accessories</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a href="Contact.html">Contact Us</a></li>
+				<li><a href="Link.html">My Account</a></li>
+			</ol>
+		</nav>
+		<br>
+	</div>
+	<div>
+		<h3>CREATE AN ACCOUNT</h3>
+		<form>
+			<label for="firstname">First Name</label>
+			<input type="text" id="firstname" name="firstName" value=""><br><br>
+			<label for="lastname">Last Name</label>
+			<input type="text" id="lastname" name="lastName" value=""><br><br>
+			<input type="radio" id="male" name="Gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="Gender" value="female">
+			<label for="female">Female</label><br><br>
+			<label for="mail">Email: </label>
+			<input type="email" id="mail" name="emailid"><br><br>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="Password" value=""><br><br>
+			<label for="conpass">Confirm Password</label>
+			<input type="password" id="conpass" name="password" value=""><br><br>
+			<label for="agree">Allow updates!</label>
+			<input type="checkbox" id="agree" name="Agree" value="Agree"><br><br>
+			<input type="submit" value="Register" onclick="alert ('Registered successfully')">
+		</form>
+		<p>Already have an account? <a href="Link.html" style="color: orange;">Login!</a></p>
+	</div>
+</body>
+
+</html>
