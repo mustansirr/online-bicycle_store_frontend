@@ -3,76 +3,7 @@
 
 <head>
 	<title>Checkout</title>
-	<style>
-		body {
-			text-align: center;
-		}
-
-		html {
-			scroll-behavior: smooth;
-			font-family: Alegreya;
-			text-align: center;
-		}
-
-		img.logo {
-			width: 50px;
-			height: 50px;
-		}
-
-		div {
-			text-align: center;
-		}
-
-		h2 {
-			text-align: center;
-		}
-
-		ol {
-			list-style-type: none;
-			margin: 0;
-			margin-top: 10px;
-			text-align: center;
-			padding: 5px;
-			background-color: black;
-		}
-
-		li {
-			display: inline-block;
-			padding: 15px;
-			text-decoration: none;
-			margin-right: 20px;
-			border: 2px black solid;
-			color: orange;
-		}
-
-		a {
-			text-decoration: none;
-			color: white;
-		}
-
-		a:hover {
-			color: orange;
-		}
-
-		p {
-			text-align: center;
-		}
-
-		form {
-			padding: 15px;
-			padding-bottom: 10px;
-		}
-
-		label {
-			color: orange;
-		}
-
-		button {
-			background-color: black;
-			color: orange;
-			border-radius: 25px;
-		}
-	</style>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -83,7 +14,7 @@
 		<img class="logo" src="Images/Logo.png" alt="LOGO">
 		<nav>
 			<ol class="nav">
-				<li><a href="Home.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="Bikes.html">Bikes</a></li>
 				<li><a href="Accessories.html">Accessories</a></li>
 				<li><a href="Services.html">Services</a></li>
@@ -93,9 +24,7 @@
 		</nav>
 		<br>
 	</div>
-	</head>
-
-	<body>
+	
 		<form>
 			<h3>Payment</h3>
 			<p>Accepted cards</p>
@@ -113,6 +42,7 @@
 			<input type="number" name="CVV" id="cvv"><br><br>
 			<button type="button" onclick="alert('Purchase Successful')">Proceed to Checkout</button>
 		</form>
-	</body>
+	
+</body>
 
 </html>
